@@ -32,7 +32,7 @@ def post_json():
 if __name__ == "__main__":
   app.run()
 
-# テストコマンド
+# ローカル環境化でのテストコマンド
 #  curl -X POST -H "Content-Type: application/json" -d '{"body":"吾輩は猫である。名前はまだない。飼い主はそこらへんの小作農だ。"}' http://localhost:5000/post
 
 
