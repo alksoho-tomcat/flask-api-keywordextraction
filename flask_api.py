@@ -9,7 +9,11 @@ app = Flask(__name__)
 # 文字化け防止
 app.config['JSON_AS_ASCII'] = False 
 
-
+# GETでID取得
+# @app.route('/get', methods=['GET'])
+# def get_id():
+  
+# POSTでキーワード抽出
 @app.route('/post', methods=['POST'])
 def post_json():
   json = request.get_json()  # Get POST JSON
